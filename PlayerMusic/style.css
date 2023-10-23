@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
+    height: 100%;
+    /*VH significa "altura vertical" onde declaramos que irá ficar em 100%*/
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+}
+#abaixo_capa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 20px 0;
+}
+#baixo_barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+}
+#like {
+    font-size: 25px;
+    color: rgb(139, 153, 156);
+    cursor: pointer;
+}
+.boton_center {
+    font-size: 50px;
+    cursor: pointer;
+}
+.repitir_inbaralhar {
+    font-size: 20px;
+    cursor: pointer;
+}
+.grande {
+    font-size: 60px;
+}
+#capa {
+    width: 450px;
+    border: 5px white solid;
+    border-radius: 5px;
+}
+#album {
+    text-align: center;
+    margin-bottom: 80px;
+}
+#nome_musica {
+    font-size: 25pt;
+    font-weight: bolder;
+}
+#nome_banda {
+    color: rgb(139, 153, 156);
+}
+#barra_prograsso {
+    background-color: rgb(139, 153, 156);
+    height: 3px;
+    border-radius: 5px;
+    width: 100%;
+}
+#progresso_atual {
+    --proatual: 0%;
+    background-color: white;
+    height: inherit;
+    width: var(--proatual);
+    border-radius: inherit;
+}
+#conteiner_barra {
+    cursor: pointer;
+}
+.boto_active {
+    color: rgb(93, 231, 93);
+}
+#time_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 5px;
+}
